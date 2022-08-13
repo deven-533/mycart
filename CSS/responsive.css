@@ -1,0 +1,21 @@
+@media screen and (max-width:705px) {
+
+    .head {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 170px;
+
+    }
+    .search{
+        margin-left: 0px;
+    }
+    .nav
+    {
+        margin-top: -3px;
+        margin-bottom: 4px;
+    }
+
+
+
+}
