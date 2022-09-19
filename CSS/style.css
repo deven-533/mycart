@@ -71,8 +71,7 @@ nav ul {
 nav ul li a:hover {
     color: rgb(200, 214, 77);
     font-weight: 400;
-    /* background-color: rgb(22, 34, 161); */
-    /* transition: background-color 1s cubic-bezier(0.05,0,0,1); */
+    
 }
 
 #s1 {
@@ -110,7 +109,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin: 5px 8px;
-    overflow:auto;
+    overflow:hidden;
     height: 60vh;
     
 
@@ -172,4 +171,9 @@ nav ul li a:hover {
     transition-delay: 0ms;
     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 
+}
+.simg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
